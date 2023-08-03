@@ -182,3 +182,64 @@ font-family:'Robotolight';
     font-size: 0.95rem;
 }
 /* Mamoon- */
+.contact_us {
+  display: flex;
+  gap: 60px;
+}
+.contact_left {
+  max-width: 40%;
+
+  padding: 2%;
+}
+.enter {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.main_contact p {
+  text-align: left;
+
+  padding-top: 7%;
+}
+
+.contact_right {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-sizing: border-box;
+
+  flex-wrap: nowrap;
+}
+#zara {
+}
+#client {
+  padding-top: 10%;
+}
+.inner_conact {
+  display: flex;
+  gap: 90px;
+}
+
+.contact_right img {
+  margin-top: 2%;
+
+  display: flex;
+}
+.imgs {
+  padding-top: 20%;
+  padding-bottom: 50%;
+}
+
+.contact_us .contact_left .forms #button {
+  border-color: aqua;
+  color: aqua;
+
+  text-align: center;
+  box-sizing: border-box;
+  width: 100px;
+  height: 30px;
+}
