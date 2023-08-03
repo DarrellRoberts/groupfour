@@ -3,9 +3,13 @@
 /* Darrell */
 
 /* Mamoon- */
+* {
+  margin: 0%;
+  padding: 0%;
+}
 .contact_us {
   display: flex;
-  gap: 60px;
+  gap: 80px;
 }
 .contact_left {
   max-width: 40%;
@@ -42,7 +46,7 @@
 }
 .inner_conact {
   display: flex;
-  gap: 90px;
+  gap: 120px;
 }
 
 .contact_right img {
@@ -63,4 +67,96 @@
   box-sizing: border-box;
   width: 100px;
   height: 30px;
+}
+.footers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 80px;
+  background-image: url(bgk-footer.png);
+}
+.foot_container {
+  display: flex;
+  align-content: center;
+
+  color: white;
+  gap: 40px;
+  padding-top: 55px;
+}
+.log_moto {
+  flex: 33%;
+  position: relative;
+}
+.tajam {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  align-items: center;
+  color: aqua;
+}
+
+.studio_info {
+  align-content: center;
+  flex-direction: column;
+  padding-top: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.studio_info .location {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 10px;
+}
+.studio_info .contactphone_phone {
+  display: flex;
+  gap: 12px;
+}
+
+.stay_intouch {
+  font-style: bold;
+  margin-top: 15px;
+}
+.stay_intouch .stay_intouch_subscribe {
+  display: flex;
+  gap: 15px;
+}
+.stay_intouch .stay_intouch_subscribe p {
+  margin-top: 25px;
+  padding: 12px;
+  border: 2px solid;
+  text-align: center;
+  display: inline-block;
+  height: 20px;
+  width: 200px;
+}
+.stay_intouch .stay_intouch_subscribe #paper {
+  margin-top: 25px;
+  padding: 12px;
+  display: block;
+  background-color: rgba(201, 219, 219, 0.74);
+}
+.stay_intouch .logos {
+  padding-top: 12px;
+  display: flex;
+  gap: 10px;
+}
+.stay_intouch #copy {
+  margin-top: 100px;
+}
+.mot {
+  padding-bottom: 20px;
+  font-style: bold;
+}
+.log_moto .extrainfo li {
+  gap: 10px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  display: flex;
+  color: rgb(225, 233, 220);
+  justify-content: space-between;
+}
+.log_moto .extrainfo li ul a {
+  color: white;
 }
