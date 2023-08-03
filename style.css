@@ -1,5 +1,117 @@
 /* Kevin */
+body {
+  margin: 0px;
+}
 
+.header {
+  background-image: url(bgk-header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-bottom: 120px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.navleft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20%;
+}
+.tajam {
+  color: turquoise;
+  font-size: 20px;
+}
+.navright {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  margin-right: 25%;
+  padding: 15px;
+}
+
+a:active {
+  color: aqua;
+}
+
+.ourstory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.logobig {
+  margin-right: 50px;
+  margin-left: 300px;
+}
+.storytext {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 40%;
+}
+
+.watchourstory {
+  background-image: url(bgk-middle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.button {
+  border: 2px solid turquoise;
+  color: turquoise;
+  flex-direction: column;
+  margin: 50px;
+  padding: 0px;
+  /* width: 5%; */
+}
+.button2 {
+  border: 2px solid turquoise;
+  color: turquoise;
+  /* flex-direction: column; */
+  margin: 50px;
+  padding: 0px;
+  width: 10%;
+}
 /* Darrell */
 body {
     display: flex;
@@ -34,7 +146,7 @@ body {
     text-align: center;
     padding: 3% 0%;
 }
-
+/* Mamoon- */
 .expertise hr {
     width: 3%;
     color: lightgrey;
