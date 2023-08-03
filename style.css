@@ -75,6 +75,7 @@
 
   padding: 80px;
   background-image: url(bgk-footer.png);
+  background-repeat: no-repeat;
 }
 .foot_container {
   display: flex;
@@ -143,7 +144,7 @@
   gap: 10px;
 }
 .stay_intouch #copy {
-  margin-top: 100px;
+  margin-top: 65px;
 }
 .mot {
   padding-bottom: 20px;
