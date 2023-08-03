@@ -8,7 +8,8 @@
   gap: 10px;
 }
 .contact_left {
-  width: 50%;
+  max-width: 40%;
+
   padding: 2%;
 }
 .enter {
@@ -40,10 +41,6 @@
   display: flex;
   gap: 50px;
 }
-.col1 {
-}
-.col2 {
-}
 
 .contact_right img {
   margin-top: 2%;
@@ -53,4 +50,14 @@
 .imgs {
   padding-top: 20%;
   padding-bottom: 50%;
+}
+
+.contact_us .contact_left .forms #button {
+  border-color: aqua;
+  color: aqua;
+
+  text-align: center;
+  box-sizing: border-box;
+  width: 100px;
+  height: 30px;
 }
