@@ -1,14 +1,4 @@
 /* Kevin */
-
-/* Darrell */
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  margin: 0px;
-}
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -168,7 +158,7 @@ body {
 .expertise hr {
   width: 3%;
   color: lightgrey;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .expertise h2 {
@@ -267,8 +257,6 @@ body {
 }
 .meet_items {
   margin: 5% 1% 0% 1%;
-  /* display: grid; */
-  /* grid-template-rows: 3fr 1fr; */
   border-style: solid;
   border-color: grey;
   border-width: 1px;
@@ -309,11 +297,13 @@ body {
   font-family: "Roboto";
   letter-spacing: 1px;
   font-size: 0.95rem;
+  padding: 0px;
+  margin: 0px;
 }
 /* Mamoon- */
 .contact_us {
   display: flex;
-  gap: 80px;
+  gap: 2px;
 }
 .contact_left {
   max-width: 40%;
@@ -350,7 +340,7 @@ body {
 }
 .inner_conact {
   display: flex;
-  gap: 120px;
+  gap: 20px;
 }
 
 .contact_right img {
@@ -371,15 +361,23 @@ body {
   width: 100px;
   height: 30px;
 }
+footer {
+  height: auto;
+  background-color: brown;
+}
 .footers {
-  display: flex;
   justify-content: center;
   align-items: center;
 
-  padding: 80px;
+  padding-bottom: 60px;
+
+  padding-left: 0px;
+
   background-image: url(bgk-footer.png);
+  background-size: 800%;
   background-repeat: no-repeat;
   object-fit: cover;
+  height: 600px;
   /* background-position: center; */
   margin: 0px;
 }
@@ -388,21 +386,24 @@ body {
   align-content: center;
   color: white;
   gap: 40px;
-  padding-top: 55px;
+  margin: auto;
 }
 .log_moto {
-  flex: 33%;
+  max-width: 100px;
+
   position: relative;
 }
 .tajam {
+  max-width: 400px;
   display: flex;
   justify-content: flex-start;
   gap: 12px;
   align-items: center;
-  color: aqua;
+  color: rgb(131, 180, 226);
 }
 
 .studio_info {
+  max-width: 100px;
   align-content: center;
   flex-direction: column;
   padding-top: 15px;
@@ -421,24 +422,31 @@ body {
 }
 
 .stay_intouch {
+  max-width: 200px;
   font-style: bold;
   margin-top: 15px;
+  overflow-wrap: break-word;
 }
 .stay_intouch .stay_intouch_subscribe {
+  max-width: 92px;
   display: flex;
-  gap: 15px;
+  flex-direction: column;
 }
 .stay_intouch .stay_intouch_subscribe p {
+  text-size-adjust: auto;
+  text-align: justify;
+  font-size: small;
+  overflow-wrap: break-word;
   margin-top: 25px;
-  padding: 12px;
+  padding: 1px;
   border: 2px solid;
   text-align: center;
   display: inline-block;
-  height: 20px;
-  width: 200px;
+  height: 100px;
+  width: 70px;
 }
 .stay_intouch .stay_intouch_subscribe #paper {
-  margin-top: 25px;
+  margin-top: 10px;
   padding: 12px;
   display: block;
   background-color: rgba(201, 219, 219, 0.74);
@@ -446,7 +454,8 @@ body {
 .stay_intouch .logos {
   padding-top: 12px;
   display: flex;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 1px;
 }
 .stay_intouch #copy {
   margin-top: 65px;
@@ -456,13 +465,137 @@ body {
   font-style: bold;
 }
 .log_moto .extrainfo li {
-  gap: 10px;
-  margin-top: 100px;
-  margin-bottom: 40px;
-  display: flex;
   color: rgb(225, 233, 220);
-  justify-content: space-between;
 }
 .log_moto .extrainfo li ul a {
+  font-size: xx-small;
   color: white;
+}
+.mamoon_work_start {
+  width: 100%;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 925px) and (max-width: 3500px) {
+  .footers {
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 60px;
+
+    padding-left: 80px;
+
+    background-image: url(bgk-footer.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    /* background-position: center; */
+    margin: 0px;
+  }
+  .foot_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+  }
+
+  .tajam {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+    align-items: center;
+    color: aqua;
+  }
+  .stay_intouch .stay_intouch_subscribe {
+    max-width: 100%;
+    display: flex;
+  }
+  .stay_intouch .logos {
+  }
+  .log_moto {
+    max-width: 400px;
+    flex: 30%;
+    position: relative;
+  }
+  .studio_info {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 200px;
+  }
+  .stay_intouch .stay_intouch_subscribe {
+    max-width: 100%;
+    display: flex;
+  }
+  .stay_intouch .stay_intouch_subscribe p {
+    text-size-adjust: auto;
+    text-align: justify;
+    font-size: large;
+    margin-top: 22px;
+    padding: 1px;
+    border: 2px solid;
+    text-align: center;
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+  }
+  .inner_conact {
+    display: flex;
+    gap: 120px;
+  }
+  .log_moto .extrainfo li {
+    gap: 10px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    display: flex;
+    color: rgb(225, 233, 220);
+    justify-content: space-between;
+  }
+  .log_moto .extrainfo li ul a {
+    color: white;
+  }
+  .contact_us {
+    display: flex;
+    justify-content: center;
+
+    align-self: center;
+
+    gap: 2px;
+    margin: auto;
+    padding: auto;
+  }
+  .stay_intouch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    font-style: bold;
+    margin-top: 15px;
+  }
+  .upper_stayintouch {
+    margin: 2px;
+    padding: 2px;
+  }
+  .stay_intouch .stay_intouch_subscribe #paper {
+    margin-top: 22px;
+    padding: 12px;
+    display: block;
+    background-color: rgba(201, 219, 219, 0.74);
+  }
+  .stay_intouch .stay_intouch_subscribe {
+    flex-direction: row;
+  }
+  .mamoon_work_start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin: auto;
+    padding: auto;
+  }
 }
