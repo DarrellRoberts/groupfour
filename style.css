@@ -173,6 +173,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 .e-griditem {
   display: flex;
@@ -180,19 +182,20 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 3rem 0rem;
+  padding: 2rem 0rem;
 }
 .e-griditem p {
   color: grey;
-  width: 70%;
+  width: 90%;
   font-family: "Robotolight";
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 .e-griditem h3 {
   color: black;
   font-weight: bolder;
   font-family: "Roboto";
-  padding-top: 1rem;
+  padding-top: 0.5rem;
+  font-size: 1rem;
 }
 #e-griditem1 {
   border-right-color: #edeaea;
@@ -485,7 +488,7 @@ footer {
     justify-content: center;
     align-items: center;
 
-    padding-bottom: 60px;
+    padding-bottom: 80px;
 
     padding-left: 80px;
 
